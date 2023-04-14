@@ -49,6 +49,36 @@
       </tags>
   </entry>
   <entry>
+    <title>add code block highlighting test</title>
+    <url>/2020/03/27/codeblock-test/</url>
+    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
+<ul>
+<li>主题的_config.yml文件</li>
+<li>站点的_config.yml文件</li>
+<li>代码块的语言标注</li>
+</ul>
+<span id="more"></span>
+
+<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: true</span><br><span class="line">  tab_replace:</span><br></pre></td></tr></table></figure>
+<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
+<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
+<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
+<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
+<blockquote>
+<blockquote>
+<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>DFTP Calculated Phonon in VASP.6.2.1</title>
     <url>/2022/01/05/dfpt-phonon-in-vasp6.2.1/</url>
     <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="Question"><a href="#Question" class="headerlink" title="Question:"></a>Question:</h2><p>Based on DFPT method, the phonon results by using VASP.5.4.4 and VASP.6.2.1 are different, see as following:</p>
@@ -84,27 +114,96 @@
       </tags>
   </entry>
   <entry>
-    <title>add code block highlighting test</title>
-    <url>/2020/03/27/codeblock-test/</url>
-    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
-<ul>
-<li>主题的_config.yml文件</li>
-<li>站点的_config.yml文件</li>
-<li>代码块的语言标注</li>
-</ul>
-<span id="more"></span>
+    <title>Hello World</title>
+    <url>/2017/05/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: true</span><br><span class="line">  tab_replace:</span><br></pre></td></tr></table></figure>
-<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
-<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
-<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
-<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
-<blockquote>
-<blockquote>
-<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
-</blockquote>
-</blockquote>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Microsoft Office doesn&#39;t support eps format file???</title>
+    <url>/2020/05/20/office-esp-file-support/</url>
+    <content><![CDATA[<h3 id="The-reason"><a href="#The-reason" class="headerlink" title="The reason"></a>The reason</h3><p>Due to some security problem, since 04&#x2F;2017, Microsoft doesn’t support eps file directly put into Word, PowerPoint file. But in our writing, we may need this kind of vector picture, how to fix this?</p>
+<span id="more"></span>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>1, ‘ win + R ‘ open the dialog, and then input regedit to open the registry editor.<br><img src="/images/regedit.png" alt="Regedit"><br>2, for 64 operation, go to: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\Common\Security\AllowLists\GraphicsFilterImport, if you don’t have it, just create a new one. And then create a key named “AllowListEnabled”, using the format of REG_QWORD (for 64 operation, don’t use REG_DWORD), with the value of “1”. Next, add eps to your list, creating a new key named “EPSIMP32.FLT”, and set the value to the version of your office.<br><img src="/images/RegistryEditor.png" alt="RegistryEditor"></p>
+<p><strong>Note: How to find the version of your office? using this <a href="https://support.microsoft.com/en-us/help/2479871/security-settings-for-graphic-filters-for-microsoft-office-365">link</a></strong> or picture:<br><img src="/images/officeversion.png" alt="officeversion"></p>
+<p>And also you can find more useful information from the link above.</p>
+]]></content>
+      <tags>
+        <tag>Office</tag>
+        <tag>Word</tag>
+        <tag>PowerPoint</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>how to add sublime to right click menu?</title>
+    <url>/2017/08/20/sublime-add-right-click-menu/</url>
+    <content><![CDATA[<p>I found this solution from this <a href="https://my.oschina.net/adairs/blog/466777">link</a></p>
+<h3 id="Why-we-should-do-this"><a href="#Why-we-should-do-this" class="headerlink" title="Why we should do this?"></a>Why we should do this?</h3><p>For convenience, i’d like to use sublime sometimes as my texteditor, not as a default one. So it’s better to add sublime to the right click menu. And how to do this?</p>
+<span id="more"></span>
+<h3 id="Method-1-Installation-recomended"><a href="#Method-1-Installation-recomended" class="headerlink" title="Method 1: Installation (recomended)"></a>Method 1: Installation (recomended)</h3><p>copy the following scipts to the file named “sublime_addright.inf”, and put the file in your directory of sublime. And then right click the file to install it.<br>PS: you should make sure that the file is not hiden in your system due to the format of this file.</p>
+<pre><code>[Version]
+Signature=&quot;$Windows NT$&quot;
+
+[DefaultInstall]
+AddReg=SublimeText3
+
+[SublimeText3]
+hkcr,&quot;*\\shell\\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
+hkcr,&quot;*\\shell\\SublimeText3\\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot; %%*&quot;
+hkcr,&quot;Directory\shell\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
+hkcr,&quot;*\\shell\\SublimeText3&quot;,&quot;Icon&quot;,0x20000,&quot;%1%\sublime_text.exe, 0&quot;
+hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot;&quot;
+</code></pre>
+<h3 id="Method-2-Modify-the-regitry"><a href="#Method-2-Modify-the-regitry" class="headerlink" title="Method 2: Modify the regitry"></a>Method 2: Modify the regitry</h3><p>Copy the following codes to file named “sublime_addright.reg”, and then double click on this file.<br>PS: you should change the directory of sublime to your own system.</p>
+<pre><code>Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\*\shell\SublimeText3]
+@=&quot;Edit with Sublime&quot;
+&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
+
+[HKEY_CLASSES_ROOT\*\shell\SublimeText3\command]
+@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
+@=&quot;Edit with Sublime&quot;
+&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
+
+[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3\command]
+@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
+</code></pre>
+<h3 id="How-to-delete-the-right-click-menu-if-you-don’t-want-it"><a href="#How-to-delete-the-right-click-menu-if-you-don’t-want-it" class="headerlink" title="How to delete the right click menu if you don’t want it?"></a>How to delete the right click menu if you don’t want it?</h3><p>Copy the following codes to the file named “sublime_delright.reg”, and put it in your sublime directory, and then double click on it.</p>
+<pre><code>Windows Registry Editor Version 5.00
+[-HKEY_CLASSES_ROOT\*\shell\SublimeText3]
+[-HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
+</code></pre>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>sublime</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>testing code</title>
+    <url>/2020/03/27/test/</url>
+    <content><![CDATA[<h1 id="first-line"><a href="#first-line" class="headerlink" title="first line"></a>first line</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>IT</category>
@@ -194,105 +293,6 @@ mypip install scipy
         <tag>Phonon</tag>
         <tag>VASP</tag>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Microsoft Office doesn&#39;t support eps format file???</title>
-    <url>/2020/05/20/office-esp-file-support/</url>
-    <content><![CDATA[<h3 id="The-reason"><a href="#The-reason" class="headerlink" title="The reason"></a>The reason</h3><p>Due to some security problem, since 04&#x2F;2017, Microsoft doesn’t support eps file directly put into Word, PowerPoint file. But in our writing, we may need this kind of vector picture, how to fix this?</p>
-<span id="more"></span>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>1, ‘ win + R ‘ open the dialog, and then input regedit to open the registry editor.<br><img src="/images/regedit.png" alt="Regedit"><br>2, for 64 operation, go to: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\Common\Security\AllowLists\GraphicsFilterImport, if you don’t have it, just create a new one. And then create a key named “AllowListEnabled”, using the format of REG_QWORD (for 64 operation, don’t use REG_DWORD), with the value of “1”. Next, add eps to your list, creating a new key named “EPSIMP32.FLT”, and set the value to the version of your office.<br><img src="/images/RegistryEditor.png" alt="RegistryEditor"></p>
-<p><strong>Note: How to find the version of your office? using this <a href="https://support.microsoft.com/en-us/help/2479871/security-settings-for-graphic-filters-for-microsoft-office-365">link</a></strong> or picture:<br><img src="/images/officeversion.png" alt="officeversion"></p>
-<p>And also you can find more useful information from the link above.</p>
-]]></content>
-      <tags>
-        <tag>Office</tag>
-        <tag>Word</tag>
-        <tag>PowerPoint</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2017/05/20/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>how to add sublime to right click menu?</title>
-    <url>/2017/08/20/sublime-add-right-click-menu/</url>
-    <content><![CDATA[<p>I found this solution from this <a href="https://my.oschina.net/adairs/blog/466777">link</a></p>
-<h3 id="Why-we-should-do-this"><a href="#Why-we-should-do-this" class="headerlink" title="Why we should do this?"></a>Why we should do this?</h3><p>For convenience, i’d like to use sublime sometimes as my texteditor, not as a default one. So it’s better to add sublime to the right click menu. And how to do this?</p>
-<span id="more"></span>
-<h3 id="Method-1-Installation-recomended"><a href="#Method-1-Installation-recomended" class="headerlink" title="Method 1: Installation (recomended)"></a>Method 1: Installation (recomended)</h3><p>copy the following scipts to the file named “sublime_addright.inf”, and put the file in your directory of sublime. And then right click the file to install it.<br>PS: you should make sure that the file is not hiden in your system due to the format of this file.</p>
-<pre><code>[Version]
-Signature=&quot;$Windows NT$&quot;
-
-[DefaultInstall]
-AddReg=SublimeText3
-
-[SublimeText3]
-hkcr,&quot;*\\shell\\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
-hkcr,&quot;*\\shell\\SublimeText3\\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot; %%*&quot;
-hkcr,&quot;Directory\shell\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
-hkcr,&quot;*\\shell\\SublimeText3&quot;,&quot;Icon&quot;,0x20000,&quot;%1%\sublime_text.exe, 0&quot;
-hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot;&quot;
-</code></pre>
-<h3 id="Method-2-Modify-the-regitry"><a href="#Method-2-Modify-the-regitry" class="headerlink" title="Method 2: Modify the regitry"></a>Method 2: Modify the regitry</h3><p>Copy the following codes to file named “sublime_addright.reg”, and then double click on this file.<br>PS: you should change the directory of sublime to your own system.</p>
-<pre><code>Windows Registry Editor Version 5.00
-[HKEY_CLASSES_ROOT\*\shell\SublimeText3]
-@=&quot;Edit with Sublime&quot;
-&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
-
-[HKEY_CLASSES_ROOT\*\shell\SublimeText3\command]
-@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
-
-
-[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
-@=&quot;Edit with Sublime&quot;
-&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
-
-[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3\command]
-@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
-</code></pre>
-<h3 id="How-to-delete-the-right-click-menu-if-you-don’t-want-it"><a href="#How-to-delete-the-right-click-menu-if-you-don’t-want-it" class="headerlink" title="How to delete the right click menu if you don’t want it?"></a>How to delete the right click menu if you don’t want it?</h3><p>Copy the following codes to the file named “sublime_delright.reg”, and put it in your sublime directory, and then double click on it.</p>
-<pre><code>Windows Registry Editor Version 5.00
-[-HKEY_CLASSES_ROOT\*\shell\SublimeText3]
-[-HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
-</code></pre>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>sublime</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>testing code</title>
-    <url>/2020/03/27/test/</url>
-    <content><![CDATA[<h1 id="first-line"><a href="#first-line" class="headerlink" title="first line"></a>first line</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
