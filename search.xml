@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2019-CoronaVirus在中国消散之际的返工</title>
-    <url>/2020/03/23/back-to-work/</url>
+    <title>2022年9月深圳疫情后</title>
+    <url>/2022/09/09/dangxiayiqing/</url>
     <content><![CDATA[<blockquote>
 <blockquote>
-<p>在这个特殊的日子里，总要记下点什么。</p>
+<p>许多年以后，面对行刑队。。。。。。</p>
 </blockquote>
 </blockquote>
-<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
+<p>这是加西亚-马尔克斯在《百年孤独》的开场白。这场疫情让我首先想到这句话，其实我想说的说，多年以后，面对曾经的这段岁月，谁有能说获得了什么？</p>
 <span id="more"></span>
 
-<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
-<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
-<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
-<p>回望这两个月，犹如在上演着形象生动的大片。</p>
-<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
+<p>由于深圳市的这波疫情问题，趁着9月3-4日周末两天，南山区各小区实行了闭环，单位实行了封闭。然而两天后，小区解封，单位把住校外的所有人从白名单里面划掉了。</p>
+<p>所有人进校都要重新进行审批，签承诺书。。。结果有些部门审核较轻柔，有些部门就非常严厉。</p>
+<p>本人提了呈批，已被退回两次。目前已经过去了一周，来到了中秋节假期，回单位已经无望了。</p>
+<p>也许多年以后，回首这些事，就是一个个笑话。</p>
 ]]></content>
       <categories>
         <category>coffeetime</category>
@@ -56,55 +54,22 @@
       </tags>
   </entry>
   <entry>
-    <title>DFTP Calculated Phonon in VASP.6.2.1</title>
-    <url>/2022/01/05/dfpt-phonon-in-vasp6.2.1/</url>
-    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="Question"><a href="#Question" class="headerlink" title="Question:"></a>Question:</h2><p>Based on DFPT method, the phonon results by using VASP.5.4.4 and VASP.6.2.1 are different, see as following:</p>
-<p><a href="https://imgtu.com/i/73dwOs"><img src="https://s4.ax1x.com/2022/01/14/73dwOs.md.png" alt="73dwOs.md.png"></a><br><a href="https://imgtu.com/i/73d2pF"><img src="https://s4.ax1x.com/2022/01/14/73d2pF.md.png" alt="73d2pF.md.png"></a></p>
-<span id="more"></span>
-
-<p>After carefully check, we find that the phonon dispersion are the same, but the phonon frequency are not. It seems that they have some unit difference.</p>
-<p>And the unit seems to be the frequency unit (f.u.) problem, in the DFPT of VASP.6.2.1, <strong>it already uses the THz unit</strong>.</p>
-<p><a href="https://imgtu.com/i/73dO6H"><img src="https://s4.ax1x.com/2022/01/14/73dO6H.md.png" alt="73dO6H.md.png"></a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">f.u.=9.822517*10^13 s-1.</span><br><span class="line"></span><br><span class="line">f.u./2pi = 15.6330214 THz.   # converted to THz</span><br></pre></td></tr></table></figure>
-
-<p>When we use phonopy to process the force data, it use the convert the unit to THz as default. That is to say, it will multiply by 15.6330214 again in VASP.6.2.1, this is why the results in VASP.6.2.1 has significant larger frequencies.</p>
-<p>In order to get the right phonon frequency, you can basically use the phononpy command to avoid double counting the factor</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">phonopy --factor=1.0 band.conf</span><br></pre></td></tr></table></figure>
-
-<p>This following figure are the new phonon results, and now they are consistent very well.</p>
-<p><a href="https://imgtu.com/i/73wCh8"><img src="https://s4.ax1x.com/2022/01/14/73wCh8.md.png" alt="73wCh8.md.png"></a></p>
-<p><strong>One should also note that only the DFPT method is affected in the VASP.6.2.1, if you are using finite difference method to calculate the phonon, no worries.</strong></p>
-<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2:"></a>Question 2:</h2><p>However if you have checked the FORCE_CONSTANTS carefully, you will find that the data in VASP.6.2.1 is in the new unit. So if you want to do the thing in a totally right&#x2F;proper way, you should change the FORCE_CONSTANTS files, especially when you are doing some research work on, for example, the LO-TO splitting, high-order phonon interactions by using ShengBTE.</p>
-<p>The solution is that you should write a code to divide the FORCE_CONSTANTS by 15.6330214**2，and then you will obtain a new FORCE_CONSTANTS file, and then you can use this new FORCE_CONSTANTS file to do anything you want。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/bin/bash</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># if one use vasp.6.2.1 DFPT calculation to obtain </span></span><br><span class="line"><span class="comment"># phonon-related properties, the calculation module in </span></span><br><span class="line"><span class="comment"># vasp.6.2.1 output the results in THz, [previously, it&#x27;s f.u.]</span></span><br><span class="line"><span class="comment"># But phonopy code process the data based on the older version,</span></span><br><span class="line"><span class="comment"># in order to do things in a right way, i wrote this script to</span></span><br><span class="line"><span class="comment"># convert the FORCE_CONSTANTS to the older unit</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="comment"># After it is converted, this FORCE_CONSTANT can be used in </span></span><br><span class="line"><span class="comment"># phonopy, SHENGBTE, and etc.</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#   Last Modified: Jan. 05 2022 </span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># converted unit, f.u./pi = 15.6330214 THz</span></span><br><span class="line">factor = <span class="number">15.6330214</span> ** <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS&quot;</span>,<span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    lines = f.readlines()</span><br><span class="line"></span><br><span class="line">nlines1 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">0</span>])</span><br><span class="line">nlines2 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">1</span>])</span><br><span class="line"><span class="built_in">print</span>(nlines1,nlines2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS_2ND&quot;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">f&quot;<span class="subst">&#123;nlines1:6d&#125;</span><span class="subst">&#123;nlines2:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(nlines1):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(nlines2):</span><br><span class="line">            f.write(<span class="string">f&quot;<span class="subst">&#123;i+<span class="number">1</span>:6d&#125;</span><span class="subst">&#123;j+<span class="number">1</span>:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">            <span class="keyword">for</span> m <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                <span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                    f.write(<span class="string">f&quot;<span class="subst">&#123;<span class="built_in">float</span>(lines[i*nlines2*<span class="number">4</span>+j*<span class="number">4</span>+<span class="number">2</span>+m].split()[n])/factor:<span class="number">22.16</span>f&#125;</span>&quot;</span>)</span><br><span class="line">                f.write(<span class="string">f&quot;\n&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-
-]]></content>
-      <categories>
-        <category>Phonon</category>
-      </categories>
-      <tags>
-        <tag>Phonon</tag>
-        <tag>VASP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022年9月深圳疫情后</title>
-    <url>/2022/09/09/dangxiayiqing/</url>
+    <title>2019-CoronaVirus在中国消散之际的返工</title>
+    <url>/2020/03/23/back-to-work/</url>
     <content><![CDATA[<blockquote>
 <blockquote>
-<p>许多年以后，面对行刑队。。。。。。</p>
+<p>在这个特殊的日子里，总要记下点什么。</p>
 </blockquote>
 </blockquote>
-<p>这是加西亚-马尔克斯在《百年孤独》的开场白。这场疫情让我首先想到这句话，其实我想说的说，多年以后，面对曾经的这段岁月，谁有能说获得了什么？</p>
+<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
 <span id="more"></span>
 
-<p>由于深圳市的这波疫情问题，趁着9月3-4日周末两天，南山区各小区实行了闭环，单位实行了封闭。然而两天后，小区解封，单位把住校外的所有人从白名单里面划掉了。</p>
-<p>所有人进校都要重新进行审批，签承诺书。。。结果有些部门审核较轻柔，有些部门就非常严厉。</p>
-<p>本人提了呈批，已被退回两次。目前已经过去了一周，来到了中秋节假期，回单位已经无望了。</p>
-<p>也许多年以后，回首这些事，就是一个个笑话。</p>
+<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
+<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
+<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
+<p>回望这两个月，犹如在上演着形象生动的大片。</p>
+<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
 ]]></content>
       <categories>
         <category>coffeetime</category>
@@ -234,20 +199,38 @@ mypip install scipy
       </tags>
   </entry>
   <entry>
-    <title>2010年世博会的一些回忆</title>
-    <url>/2020/04/07/yishibo/</url>
-    <content><![CDATA[<h1 id="2010上海世博会"><a href="#2010上海世博会" class="headerlink" title="2010上海世博会"></a>2010上海世博会</h1><p>十年前，世博会在上海召开。正值读大学期间，有幸成为一名志愿者，在园区内外服务了14天。可惜的是一些照片随着设备的更新迭代已经丢失了。疫情期间，在家闲来无聊，翻开了抽屉里的一些物品存物，找到了一些纪念品。<br>由于事隔遥远，已经十年前，记忆似乎已经完全丢失，只能把这些纪念品拍下来保存。有些做志愿者的照片也在网盘里面被我翻出来，但是由于像素不高就不放上来了，仅作为自己的记忆吧。</p>
-<h1 id="纪念图册"><a href="#纪念图册" class="headerlink" title="纪念图册"></a>纪念图册</h1><p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_135938-COLLAGE.jpg" alt="志愿者徽章"></p>
+    <title>DFTP Calculated Phonon in VASP.6.2.1</title>
+    <url>/2022/01/05/dfpt-phonon-in-vasp6.2.1/</url>
+    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="Question"><a href="#Question" class="headerlink" title="Question:"></a>Question:</h2><p>Based on DFPT method, the phonon results by using VASP.5.4.4 and VASP.6.2.1 are different, see as following:</p>
+<p><a href="https://imgtu.com/i/73dwOs"><img src="https://s4.ax1x.com/2022/01/14/73dwOs.md.png" alt="73dwOs.md.png"></a><br><a href="https://imgtu.com/i/73d2pF"><img src="https://s4.ax1x.com/2022/01/14/73d2pF.md.png" alt="73d2pF.md.png"></a></p>
 <span id="more"></span>
 
-<p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140043-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140347-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140242-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140506-COLLAGE.jpg" alt="世博展馆印章"></p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>还翻到了几张自己十年前在世博会拍的照片，当年可真瘦呀~~</p>
+<p>After carefully check, we find that the phonon dispersion are the same, but the phonon frequency are not. It seems that they have some unit difference.</p>
+<p>And the unit seems to be the frequency unit (f.u.) problem, in the DFPT of VASP.6.2.1, <strong>it already uses the THz unit</strong>.</p>
+<p><a href="https://imgtu.com/i/73dO6H"><img src="https://s4.ax1x.com/2022/01/14/73dO6H.md.png" alt="73dO6H.md.png"></a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">f.u.=9.822517*10^13 s-1.</span><br><span class="line"></span><br><span class="line">f.u./2pi = 15.6330214 THz.   # converted to THz</span><br></pre></td></tr></table></figure>
+
+<p>When we use phonopy to process the force data, it use the convert the unit to THz as default. That is to say, it will multiply by 15.6330214 again in VASP.6.2.1, this is why the results in VASP.6.2.1 has significant larger frequencies.</p>
+<p>In order to get the right phonon frequency, you can basically use the phononpy command to avoid double counting the factor</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">phonopy --factor=1.0 band.conf</span><br></pre></td></tr></table></figure>
+
+<p>This following figure are the new phonon results, and now they are consistent very well.</p>
+<p><a href="https://imgtu.com/i/73wCh8"><img src="https://s4.ax1x.com/2022/01/14/73wCh8.md.png" alt="73wCh8.md.png"></a></p>
+<p><strong>One should also note that only the DFPT method is affected in the VASP.6.2.1, if you are using finite difference method to calculate the phonon, no worries.</strong></p>
+<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2:"></a>Question 2:</h2><p>However if you have checked the FORCE_CONSTANTS carefully, you will find that the data in VASP.6.2.1 is in the new unit. So if you want to do the thing in a totally right&#x2F;proper way, you should change the FORCE_CONSTANTS files, especially when you are doing some research work on, for example, the LO-TO splitting, high-order phonon interactions by using ShengBTE.</p>
+<p>The solution is that you should write a code to divide the FORCE_CONSTANTS by 15.6330214**2，and then you will obtain a new FORCE_CONSTANTS file, and then you can use this new FORCE_CONSTANTS file to do anything you want。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/bin/bash</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># if one use vasp.6.2.1 DFPT calculation to obtain </span></span><br><span class="line"><span class="comment"># phonon-related properties, the calculation module in </span></span><br><span class="line"><span class="comment"># vasp.6.2.1 output the results in THz, [previously, it&#x27;s f.u.]</span></span><br><span class="line"><span class="comment"># But phonopy code process the data based on the older version,</span></span><br><span class="line"><span class="comment"># in order to do things in a right way, i wrote this script to</span></span><br><span class="line"><span class="comment"># convert the FORCE_CONSTANTS to the older unit</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="comment"># After it is converted, this FORCE_CONSTANT can be used in </span></span><br><span class="line"><span class="comment"># phonopy, SHENGBTE, and etc.</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#   Last Modified: Jan. 05 2022 </span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># converted unit, f.u./pi = 15.6330214 THz</span></span><br><span class="line">factor = <span class="number">15.6330214</span> ** <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS&quot;</span>,<span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    lines = f.readlines()</span><br><span class="line"></span><br><span class="line">nlines1 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">0</span>])</span><br><span class="line">nlines2 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">1</span>])</span><br><span class="line"><span class="built_in">print</span>(nlines1,nlines2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS_2ND&quot;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">f&quot;<span class="subst">&#123;nlines1:6d&#125;</span><span class="subst">&#123;nlines2:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(nlines1):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(nlines2):</span><br><span class="line">            f.write(<span class="string">f&quot;<span class="subst">&#123;i+<span class="number">1</span>:6d&#125;</span><span class="subst">&#123;j+<span class="number">1</span>:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">            <span class="keyword">for</span> m <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                <span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                    f.write(<span class="string">f&quot;<span class="subst">&#123;<span class="built_in">float</span>(lines[i*nlines2*<span class="number">4</span>+j*<span class="number">4</span>+<span class="number">2</span>+m].split()[n])/factor:<span class="number">22.16</span>f&#125;</span>&quot;</span>)</span><br><span class="line">                f.write(<span class="string">f&quot;\n&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
 ]]></content>
       <categories>
-        <category>coffeetime</category>
+        <category>Phonon</category>
       </categories>
       <tags>
-        <tag>memory</tag>
+        <tag>Phonon</tag>
+        <tag>VASP</tag>
       </tags>
   </entry>
   <entry>
@@ -298,6 +281,23 @@ hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\su
       </categories>
       <tags>
         <tag>sublime</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2010年世博会的一些回忆</title>
+    <url>/2020/04/07/yishibo/</url>
+    <content><![CDATA[<h1 id="2010上海世博会"><a href="#2010上海世博会" class="headerlink" title="2010上海世博会"></a>2010上海世博会</h1><p>十年前，世博会在上海召开。正值读大学期间，有幸成为一名志愿者，在园区内外服务了14天。可惜的是一些照片随着设备的更新迭代已经丢失了。疫情期间，在家闲来无聊，翻开了抽屉里的一些物品存物，找到了一些纪念品。<br>由于事隔遥远，已经十年前，记忆似乎已经完全丢失，只能把这些纪念品拍下来保存。有些做志愿者的照片也在网盘里面被我翻出来，但是由于像素不高就不放上来了，仅作为自己的记忆吧。</p>
+<h1 id="纪念图册"><a href="#纪念图册" class="headerlink" title="纪念图册"></a>纪念图册</h1><p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_135938-COLLAGE.jpg" alt="志愿者徽章"></p>
+<span id="more"></span>
+
+<p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140043-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140347-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140242-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140506-COLLAGE.jpg" alt="世博展馆印章"></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>还翻到了几张自己十年前在世博会拍的照片，当年可真瘦呀~~</p>
+]]></content>
+      <categories>
+        <category>coffeetime</category>
+      </categories>
+      <tags>
+        <tag>memory</tag>
       </tags>
   </entry>
   <entry>
