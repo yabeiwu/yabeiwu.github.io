@@ -271,14 +271,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span></span>
+      <span>481</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>NaN:aN</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -296,11 +296,11 @@
 <p>After carefully check, we find that the phonon dispersion are the same, but the phonon frequency are not. It seems that they have some unit difference.</p>
 <p>And the unit seems to be the frequency unit (f.u.) problem, in the DFPT of VASP.6.2.1, <strong>it already uses the THz unit</strong>.</p>
 <p><a target="_blank" rel="noopener" href="https://imgtu.com/i/73dO6H"><img src="https://s4.ax1x.com/2022/01/14/73dO6H.md.png" alt="73dO6H.md.png"></a></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">f.u.=9.822517*10^13 s-1.</span><br><span class="line"></span><br><span class="line">f.u./2pi = 15.6330214 THz.   # converted to THz</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">f</span>.u.=<span class="number">9</span>.<span class="number">822517</span>*<span class="number">10</span>^<span class="number">13</span> s-<span class="number">1</span>.</span><br><span class="line"></span><br><span class="line"><span class="attribute">f</span>.u./<span class="number">2</span>pi = <span class="number">15</span>.<span class="number">6330214</span> THz.   # converted to THz</span><br></pre></td></tr></table></figure>
 
 <p>When we use phonopy to process the force data, it use the convert the unit to THz as default. That is to say, it will multiply by 15.6330214 again in VASP.6.2.1, this is why the results in VASP.6.2.1 has significant larger frequencies.</p>
 <p>In order to get the right phonon frequency, you can basically use the phononpy command to avoid double counting the factor</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">phonopy --factor=1.0 band.conf</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">phonopy</span> --factor=<span class="number">1</span>.<span class="number">0</span> band.conf</span><br></pre></td></tr></table></figure>
 
 <p>This following figure are the new phonon results, and now they are consistent very well.</p>
 <p><a target="_blank" rel="noopener" href="https://imgtu.com/i/73wCh8"><img src="https://s4.ax1x.com/2022/01/14/73wCh8.md.png" alt="73wCh8.md.png"></a></p>
@@ -368,13 +368,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">NaNm</span>
+    <span title="Word count total">3k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">NaN:aN</span>
+    <span title="Reading time total">11 mins.</span>
   </span>
 </div>
 <div class="busuanzi-count">

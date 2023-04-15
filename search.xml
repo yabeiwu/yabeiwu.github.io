@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2019-CoronaVirus在中国消散之际的返工</title>
+    <url>/2020/03/23/back-to-work/</url>
+    <content><![CDATA[<blockquote>
+<blockquote>
+<p>在这个特殊的日子里，总要记下点什么。</p>
+</blockquote>
+</blockquote>
+<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
+<span id="more"></span>
+
+<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
+<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
+<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
+<p>回望这两个月，犹如在上演着形象生动的大片。</p>
+<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
+]]></content>
+      <categories>
+        <category>coffeetime</category>
+      </categories>
+      <tags>
+        <tag>memory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>add code block highlighting test</title>
+    <url>/2020/03/27/codeblock-test/</url>
+    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
+<ul>
+<li>主题的_config.yml文件</li>
+<li>站点的_config.yml文件</li>
+<li>代码块的语言标注</li>
+</ul>
+<span id="more"></span>
+
+<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span></span><br></pre></td></tr></table></figure>
+<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
+<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
+<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
+<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
+<blockquote>
+<blockquote>
+<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2022年9月深圳疫情后</title>
     <url>/2022/09/09/dangxiayiqing/</url>
     <content><![CDATA[<blockquote>
@@ -24,58 +79,38 @@
       </tags>
   </entry>
   <entry>
-    <title>add code block highlighting test</title>
-    <url>/2020/03/27/codeblock-test/</url>
-    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
-<ul>
-<li>主题的_config.yml文件</li>
-<li>站点的_config.yml文件</li>
-<li>代码块的语言标注</li>
-</ul>
+    <title>DFTP Calculated Phonon in VASP.6.2.1</title>
+    <url>/2022/01/05/dfpt-phonon-in-vasp6.2.1/</url>
+    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="Question"><a href="#Question" class="headerlink" title="Question:"></a>Question:</h2><p>Based on DFPT method, the phonon results by using VASP.5.4.4 and VASP.6.2.1 are different, see as following:</p>
+<p><a href="https://imgtu.com/i/73dwOs"><img src="https://s4.ax1x.com/2022/01/14/73dwOs.md.png" alt="73dwOs.md.png"></a><br><a href="https://imgtu.com/i/73d2pF"><img src="https://s4.ax1x.com/2022/01/14/73d2pF.md.png" alt="73d2pF.md.png"></a></p>
 <span id="more"></span>
 
-<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">highlight:</span><br><span class="line">  enable: true</span><br><span class="line">  line_number: true</span><br><span class="line">  auto_detect: true</span><br><span class="line">  tab_replace:</span><br></pre></td></tr></table></figure>
-<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
-<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
-<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
-<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
-<blockquote>
-<blockquote>
-<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
-</blockquote>
-</blockquote>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019-CoronaVirus在中国消散之际的返工</title>
-    <url>/2020/03/23/back-to-work/</url>
-    <content><![CDATA[<blockquote>
-<blockquote>
-<p>在这个特殊的日子里，总要记下点什么。</p>
-</blockquote>
-</blockquote>
-<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
-<span id="more"></span>
+<p>After carefully check, we find that the phonon dispersion are the same, but the phonon frequency are not. It seems that they have some unit difference.</p>
+<p>And the unit seems to be the frequency unit (f.u.) problem, in the DFPT of VASP.6.2.1, <strong>it already uses the THz unit</strong>.</p>
+<p><a href="https://imgtu.com/i/73dO6H"><img src="https://s4.ax1x.com/2022/01/14/73dO6H.md.png" alt="73dO6H.md.png"></a></p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">f</span>.u.=<span class="number">9</span>.<span class="number">822517</span>*<span class="number">10</span>^<span class="number">13</span> s-<span class="number">1</span>.</span><br><span class="line"></span><br><span class="line"><span class="attribute">f</span>.u./<span class="number">2</span>pi = <span class="number">15</span>.<span class="number">6330214</span> THz.   # converted to THz</span><br></pre></td></tr></table></figure>
 
-<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
-<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
-<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
-<p>回望这两个月，犹如在上演着形象生动的大片。</p>
-<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
+<p>When we use phonopy to process the force data, it use the convert the unit to THz as default. That is to say, it will multiply by 15.6330214 again in VASP.6.2.1, this is why the results in VASP.6.2.1 has significant larger frequencies.</p>
+<p>In order to get the right phonon frequency, you can basically use the phononpy command to avoid double counting the factor</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">phonopy</span> --factor=<span class="number">1</span>.<span class="number">0</span> band.conf</span><br></pre></td></tr></table></figure>
+
+<p>This following figure are the new phonon results, and now they are consistent very well.</p>
+<p><a href="https://imgtu.com/i/73wCh8"><img src="https://s4.ax1x.com/2022/01/14/73wCh8.md.png" alt="73wCh8.md.png"></a></p>
+<p><strong>One should also note that only the DFPT method is affected in the VASP.6.2.1, if you are using finite difference method to calculate the phonon, no worries.</strong></p>
+<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2:"></a>Question 2:</h2><p>However if you have checked the FORCE_CONSTANTS carefully, you will find that the data in VASP.6.2.1 is in the new unit. So if you want to do the thing in a totally right&#x2F;proper way, you should change the FORCE_CONSTANTS files, especially when you are doing some research work on, for example, the LO-TO splitting, high-order phonon interactions by using ShengBTE.</p>
+<p>The solution is that you should write a code to divide the FORCE_CONSTANTS by 15.6330214**2，and then you will obtain a new FORCE_CONSTANTS file, and then you can use this new FORCE_CONSTANTS file to do anything you want。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/bin/bash</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># if one use vasp.6.2.1 DFPT calculation to obtain </span></span><br><span class="line"><span class="comment"># phonon-related properties, the calculation module in </span></span><br><span class="line"><span class="comment"># vasp.6.2.1 output the results in THz, [previously, it&#x27;s f.u.]</span></span><br><span class="line"><span class="comment"># But phonopy code process the data based on the older version,</span></span><br><span class="line"><span class="comment"># in order to do things in a right way, i wrote this script to</span></span><br><span class="line"><span class="comment"># convert the FORCE_CONSTANTS to the older unit</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="comment"># After it is converted, this FORCE_CONSTANT can be used in </span></span><br><span class="line"><span class="comment"># phonopy, SHENGBTE, and etc.</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#   Last Modified: Jan. 05 2022 </span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># converted unit, f.u./pi = 15.6330214 THz</span></span><br><span class="line">factor = <span class="number">15.6330214</span> ** <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS&quot;</span>,<span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    lines = f.readlines()</span><br><span class="line"></span><br><span class="line">nlines1 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">0</span>])</span><br><span class="line">nlines2 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">1</span>])</span><br><span class="line"><span class="built_in">print</span>(nlines1,nlines2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS_2ND&quot;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">f&quot;<span class="subst">&#123;nlines1:6d&#125;</span><span class="subst">&#123;nlines2:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(nlines1):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(nlines2):</span><br><span class="line">            f.write(<span class="string">f&quot;<span class="subst">&#123;i+<span class="number">1</span>:6d&#125;</span><span class="subst">&#123;j+<span class="number">1</span>:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">            <span class="keyword">for</span> m <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                <span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                    f.write(<span class="string">f&quot;<span class="subst">&#123;<span class="built_in">float</span>(lines[i*nlines2*<span class="number">4</span>+j*<span class="number">4</span>+<span class="number">2</span>+m].split()[n])/factor:<span class="number">22.16</span>f&#125;</span>&quot;</span>)</span><br><span class="line">                f.write(<span class="string">f&quot;\n&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
 ]]></content>
       <categories>
-        <category>coffeetime</category>
+        <category>Phonon</category>
       </categories>
       <tags>
-        <tag>memory</tag>
+        <tag>Phonon</tag>
+        <tag>VASP</tag>
       </tags>
   </entry>
   <entry>
@@ -113,6 +148,56 @@
         <tag>Office</tag>
         <tag>Word</tag>
         <tag>PowerPoint</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>how to add sublime to right click menu?</title>
+    <url>/2017/08/20/sublime-add-right-click-menu/</url>
+    <content><![CDATA[<p>I found this solution from this <a href="https://my.oschina.net/adairs/blog/466777">link</a></p>
+<h3 id="Why-we-should-do-this"><a href="#Why-we-should-do-this" class="headerlink" title="Why we should do this?"></a>Why we should do this?</h3><p>For convenience, i’d like to use sublime sometimes as my texteditor, not as a default one. So it’s better to add sublime to the right click menu. And how to do this?</p>
+<span id="more"></span>
+<h3 id="Method-1-Installation-recomended"><a href="#Method-1-Installation-recomended" class="headerlink" title="Method 1: Installation (recomended)"></a>Method 1: Installation (recomended)</h3><p>copy the following scipts to the file named “sublime_addright.inf”, and put the file in your directory of sublime. And then right click the file to install it.<br>PS: you should make sure that the file is not hiden in your system due to the format of this file.</p>
+<pre><code>[Version]
+Signature=&quot;$Windows NT$&quot;
+
+[DefaultInstall]
+AddReg=SublimeText3
+
+[SublimeText3]
+hkcr,&quot;*\\shell\\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
+hkcr,&quot;*\\shell\\SublimeText3\\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot; %%*&quot;
+hkcr,&quot;Directory\shell\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
+hkcr,&quot;*\\shell\\SublimeText3&quot;,&quot;Icon&quot;,0x20000,&quot;%1%\sublime_text.exe, 0&quot;
+hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot;&quot;
+</code></pre>
+<h3 id="Method-2-Modify-the-regitry"><a href="#Method-2-Modify-the-regitry" class="headerlink" title="Method 2: Modify the regitry"></a>Method 2: Modify the regitry</h3><p>Copy the following codes to file named “sublime_addright.reg”, and then double click on this file.<br>PS: you should change the directory of sublime to your own system.</p>
+<pre><code>Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\*\shell\SublimeText3]
+@=&quot;Edit with Sublime&quot;
+&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
+
+[HKEY_CLASSES_ROOT\*\shell\SublimeText3\command]
+@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
+@=&quot;Edit with Sublime&quot;
+&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
+
+[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3\command]
+@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
+</code></pre>
+<h3 id="How-to-delete-the-right-click-menu-if-you-don’t-want-it"><a href="#How-to-delete-the-right-click-menu-if-you-don’t-want-it" class="headerlink" title="How to delete the right click menu if you don’t want it?"></a>How to delete the right click menu if you don’t want it?</h3><p>Copy the following codes to the file named “sublime_delright.reg”, and put it in your sublime directory, and then double click on it.</p>
+<pre><code>Windows Registry Editor Version 5.00
+[-HKEY_CLASSES_ROOT\*\shell\SublimeText3]
+[-HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
+</code></pre>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>sublime</tag>
       </tags>
   </entry>
   <entry>
@@ -199,88 +284,15 @@ mypip install scipy
       </tags>
   </entry>
   <entry>
-    <title>DFTP Calculated Phonon in VASP.6.2.1</title>
-    <url>/2022/01/05/dfpt-phonon-in-vasp6.2.1/</url>
-    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="Question"><a href="#Question" class="headerlink" title="Question:"></a>Question:</h2><p>Based on DFPT method, the phonon results by using VASP.5.4.4 and VASP.6.2.1 are different, see as following:</p>
-<p><a href="https://imgtu.com/i/73dwOs"><img src="https://s4.ax1x.com/2022/01/14/73dwOs.md.png" alt="73dwOs.md.png"></a><br><a href="https://imgtu.com/i/73d2pF"><img src="https://s4.ax1x.com/2022/01/14/73d2pF.md.png" alt="73d2pF.md.png"></a></p>
-<span id="more"></span>
-
-<p>After carefully check, we find that the phonon dispersion are the same, but the phonon frequency are not. It seems that they have some unit difference.</p>
-<p>And the unit seems to be the frequency unit (f.u.) problem, in the DFPT of VASP.6.2.1, <strong>it already uses the THz unit</strong>.</p>
-<p><a href="https://imgtu.com/i/73dO6H"><img src="https://s4.ax1x.com/2022/01/14/73dO6H.md.png" alt="73dO6H.md.png"></a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">f.u.=9.822517*10^13 s-1.</span><br><span class="line"></span><br><span class="line">f.u./2pi = 15.6330214 THz.   # converted to THz</span><br></pre></td></tr></table></figure>
-
-<p>When we use phonopy to process the force data, it use the convert the unit to THz as default. That is to say, it will multiply by 15.6330214 again in VASP.6.2.1, this is why the results in VASP.6.2.1 has significant larger frequencies.</p>
-<p>In order to get the right phonon frequency, you can basically use the phononpy command to avoid double counting the factor</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">phonopy --factor=1.0 band.conf</span><br></pre></td></tr></table></figure>
-
-<p>This following figure are the new phonon results, and now they are consistent very well.</p>
-<p><a href="https://imgtu.com/i/73wCh8"><img src="https://s4.ax1x.com/2022/01/14/73wCh8.md.png" alt="73wCh8.md.png"></a></p>
-<p><strong>One should also note that only the DFPT method is affected in the VASP.6.2.1, if you are using finite difference method to calculate the phonon, no worries.</strong></p>
-<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2:"></a>Question 2:</h2><p>However if you have checked the FORCE_CONSTANTS carefully, you will find that the data in VASP.6.2.1 is in the new unit. So if you want to do the thing in a totally right&#x2F;proper way, you should change the FORCE_CONSTANTS files, especially when you are doing some research work on, for example, the LO-TO splitting, high-order phonon interactions by using ShengBTE.</p>
-<p>The solution is that you should write a code to divide the FORCE_CONSTANTS by 15.6330214**2，and then you will obtain a new FORCE_CONSTANTS file, and then you can use this new FORCE_CONSTANTS file to do anything you want。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/bin/bash</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># if one use vasp.6.2.1 DFPT calculation to obtain </span></span><br><span class="line"><span class="comment"># phonon-related properties, the calculation module in </span></span><br><span class="line"><span class="comment"># vasp.6.2.1 output the results in THz, [previously, it&#x27;s f.u.]</span></span><br><span class="line"><span class="comment"># But phonopy code process the data based on the older version,</span></span><br><span class="line"><span class="comment"># in order to do things in a right way, i wrote this script to</span></span><br><span class="line"><span class="comment"># convert the FORCE_CONSTANTS to the older unit</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="comment"># After it is converted, this FORCE_CONSTANT can be used in </span></span><br><span class="line"><span class="comment"># phonopy, SHENGBTE, and etc.</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#   Last Modified: Jan. 05 2022 </span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># converted unit, f.u./pi = 15.6330214 THz</span></span><br><span class="line">factor = <span class="number">15.6330214</span> ** <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS&quot;</span>,<span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    lines = f.readlines()</span><br><span class="line"></span><br><span class="line">nlines1 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">0</span>])</span><br><span class="line">nlines2 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">1</span>])</span><br><span class="line"><span class="built_in">print</span>(nlines1,nlines2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS_2ND&quot;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">f&quot;<span class="subst">&#123;nlines1:6d&#125;</span><span class="subst">&#123;nlines2:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(nlines1):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(nlines2):</span><br><span class="line">            f.write(<span class="string">f&quot;<span class="subst">&#123;i+<span class="number">1</span>:6d&#125;</span><span class="subst">&#123;j+<span class="number">1</span>:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">            <span class="keyword">for</span> m <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                <span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                    f.write(<span class="string">f&quot;<span class="subst">&#123;<span class="built_in">float</span>(lines[i*nlines2*<span class="number">4</span>+j*<span class="number">4</span>+<span class="number">2</span>+m].split()[n])/factor:<span class="number">22.16</span>f&#125;</span>&quot;</span>)</span><br><span class="line">                f.write(<span class="string">f&quot;\n&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-
-]]></content>
-      <categories>
-        <category>Phonon</category>
-      </categories>
-      <tags>
-        <tag>Phonon</tag>
-        <tag>VASP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>how to add sublime to right click menu?</title>
-    <url>/2017/08/20/sublime-add-right-click-menu/</url>
-    <content><![CDATA[<p>I found this solution from this <a href="https://my.oschina.net/adairs/blog/466777">link</a></p>
-<h3 id="Why-we-should-do-this"><a href="#Why-we-should-do-this" class="headerlink" title="Why we should do this?"></a>Why we should do this?</h3><p>For convenience, i’d like to use sublime sometimes as my texteditor, not as a default one. So it’s better to add sublime to the right click menu. And how to do this?</p>
-<span id="more"></span>
-<h3 id="Method-1-Installation-recomended"><a href="#Method-1-Installation-recomended" class="headerlink" title="Method 1: Installation (recomended)"></a>Method 1: Installation (recomended)</h3><p>copy the following scipts to the file named “sublime_addright.inf”, and put the file in your directory of sublime. And then right click the file to install it.<br>PS: you should make sure that the file is not hiden in your system due to the format of this file.</p>
-<pre><code>[Version]
-Signature=&quot;$Windows NT$&quot;
-
-[DefaultInstall]
-AddReg=SublimeText3
-
-[SublimeText3]
-hkcr,&quot;*\\shell\\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
-hkcr,&quot;*\\shell\\SublimeText3\\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot; %%*&quot;
-hkcr,&quot;Directory\shell\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
-hkcr,&quot;*\\shell\\SublimeText3&quot;,&quot;Icon&quot;,0x20000,&quot;%1%\sublime_text.exe, 0&quot;
-hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot;&quot;
-</code></pre>
-<h3 id="Method-2-Modify-the-regitry"><a href="#Method-2-Modify-the-regitry" class="headerlink" title="Method 2: Modify the regitry"></a>Method 2: Modify the regitry</h3><p>Copy the following codes to file named “sublime_addright.reg”, and then double click on this file.<br>PS: you should change the directory of sublime to your own system.</p>
-<pre><code>Windows Registry Editor Version 5.00
-[HKEY_CLASSES_ROOT\*\shell\SublimeText3]
-@=&quot;Edit with Sublime&quot;
-&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
-
-[HKEY_CLASSES_ROOT\*\shell\SublimeText3\command]
-@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
-
-
-[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
-@=&quot;Edit with Sublime&quot;
-&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
-
-[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3\command]
-@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
-</code></pre>
-<h3 id="How-to-delete-the-right-click-menu-if-you-don’t-want-it"><a href="#How-to-delete-the-right-click-menu-if-you-don’t-want-it" class="headerlink" title="How to delete the right click menu if you don’t want it?"></a>How to delete the right click menu if you don’t want it?</h3><p>Copy the following codes to the file named “sublime_delright.reg”, and put it in your sublime directory, and then double click on it.</p>
-<pre><code>Windows Registry Editor Version 5.00
-[-HKEY_CLASSES_ROOT\*\shell\SublimeText3]
-[-HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
-</code></pre>
+    <title>testing code</title>
+    <url>/2020/03/27/test/</url>
+    <content><![CDATA[<h1 id="first-line"><a href="#first-line" class="headerlink" title="first line"></a>first line</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>IT</category>
       </categories>
       <tags>
-        <tag>sublime</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -298,18 +310,6 @@ hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\su
       </categories>
       <tags>
         <tag>memory</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>testing code</title>
-    <url>/2020/03/27/test/</url>
-    <content><![CDATA[<h1 id="first-line"><a href="#first-line" class="headerlink" title="first line"></a>first line</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
