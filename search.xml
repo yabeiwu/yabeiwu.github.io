@@ -1,61 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>add code block highlighting test</title>
-    <url>/2020/03/27/codeblock-test/</url>
-    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
-<ul>
-<li>主题的_config.yml文件</li>
-<li>站点的_config.yml文件</li>
-<li>代码块的语言标注</li>
-</ul>
-<span id="more"></span>
-
-<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span></span><br></pre></td></tr></table></figure>
-<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
-<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
-<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
-<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
-<blockquote>
-<blockquote>
-<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
-</blockquote>
-</blockquote>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019-CoronaVirus在中国消散之际的返工</title>
-    <url>/2020/03/23/back-to-work/</url>
-    <content><![CDATA[<blockquote>
-<blockquote>
-<p>在这个特殊的日子里，总要记下点什么。</p>
-</blockquote>
-</blockquote>
-<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
-<span id="more"></span>
-
-<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
-<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
-<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
-<p>回望这两个月，犹如在上演着形象生动的大片。</p>
-<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
-]]></content>
-      <categories>
-        <category>coffeetime</category>
-      </categories>
-      <tags>
-        <tag>memory</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2022年9月深圳疫情后</title>
     <url>/2022/09/09/dangxiayiqing/</url>
     <content><![CDATA[<blockquote>
@@ -219,6 +164,51 @@ mypip install scipy
       </tags>
   </entry>
   <entry>
+    <title>add code block highlighting test</title>
+    <url>/2020/03/27/codeblock-test/</url>
+    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
+<ul>
+<li>主题的_config.yml文件</li>
+<li>站点的_config.yml文件</li>
+<li>代码块的语言标注</li>
+</ul>
+<span id="more"></span>
+
+<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span></span><br></pre></td></tr></table></figure>
+<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
+<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
+<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
+<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
+<blockquote>
+<blockquote>
+<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
+</blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Microsoft Office doesn&#39;t support eps format file???</title>
+    <url>/2020/05/20/office-esp-file-support/</url>
+    <content><![CDATA[<h3 id="The-reason"><a href="#The-reason" class="headerlink" title="The reason"></a>The reason</h3><p>Due to some security problem, since 04&#x2F;2017, Microsoft doesn’t support eps file directly put into Word, PowerPoint file. But in our writing, we may need this kind of vector picture, how to fix this?</p>
+<span id="more"></span>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>1, ‘ win + R ‘ open the dialog, and then input regedit to open the registry editor.<br><img src="/images/regedit.png" alt="Regedit"><br>2, for 64 operation, go to: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\Common\Security\AllowLists\GraphicsFilterImport, if you don’t have it, just create a new one. And then create a key named “AllowListEnabled”, using the format of REG_QWORD (for 64 operation, don’t use REG_DWORD), with the value of “1”. Next, add eps to your list, creating a new key named “EPSIMP32.FLT”, and set the value to the version of your office.<br><img src="/images/RegistryEditor.png" alt="RegistryEditor"></p>
+<p><strong>Note: How to find the version of your office? using this <a href="https://support.microsoft.com/en-us/help/2479871/security-settings-for-graphic-filters-for-microsoft-office-365">link</a></strong> or picture:<br><img src="/images/officeversion.png" alt="officeversion"></p>
+<p>And also you can find more useful information from the link above.</p>
+]]></content>
+      <tags>
+        <tag>Office</tag>
+        <tag>Word</tag>
+        <tag>PowerPoint</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>how to add sublime to right click menu?</title>
     <url>/2017/08/20/sublime-add-right-click-menu/</url>
     <content><![CDATA[<p>I found this solution from this <a href="https://my.oschina.net/adairs/blog/466777">link</a></p>
@@ -269,21 +259,6 @@ hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\su
       </tags>
   </entry>
   <entry>
-    <title>Microsoft Office doesn&#39;t support eps format file???</title>
-    <url>/2020/05/20/office-esp-file-support/</url>
-    <content><![CDATA[<h3 id="The-reason"><a href="#The-reason" class="headerlink" title="The reason"></a>The reason</h3><p>Due to some security problem, since 04&#x2F;2017, Microsoft doesn’t support eps file directly put into Word, PowerPoint file. But in our writing, we may need this kind of vector picture, how to fix this?</p>
-<span id="more"></span>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>1, ‘ win + R ‘ open the dialog, and then input regedit to open the registry editor.<br><img src="/images/regedit.png" alt="Regedit"><br>2, for 64 operation, go to: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\Common\Security\AllowLists\GraphicsFilterImport, if you don’t have it, just create a new one. And then create a key named “AllowListEnabled”, using the format of REG_QWORD (for 64 operation, don’t use REG_DWORD), with the value of “1”. Next, add eps to your list, creating a new key named “EPSIMP32.FLT”, and set the value to the version of your office.<br><img src="/images/RegistryEditor.png" alt="RegistryEditor"></p>
-<p><strong>Note: How to find the version of your office? using this <a href="https://support.microsoft.com/en-us/help/2479871/security-settings-for-graphic-filters-for-microsoft-office-365">link</a></strong> or picture:<br><img src="/images/officeversion.png" alt="officeversion"></p>
-<p>And also you can find more useful information from the link above.</p>
-]]></content>
-      <tags>
-        <tag>Office</tag>
-        <tag>Word</tag>
-        <tag>PowerPoint</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>testing code</title>
     <url>/2020/03/27/test/</url>
     <content><![CDATA[<h1 id="first-line"><a href="#first-line" class="headerlink" title="first line"></a>first line</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
@@ -304,6 +279,31 @@ hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\su
 
 <p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140043-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140347-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140242-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140506-COLLAGE.jpg" alt="世博展馆印章"></p>
 <h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>还翻到了几张自己十年前在世博会拍的照片，当年可真瘦呀~~</p>
+]]></content>
+      <categories>
+        <category>coffeetime</category>
+      </categories>
+      <tags>
+        <tag>memory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2019-CoronaVirus在中国消散之际的返工</title>
+    <url>/2020/03/23/back-to-work/</url>
+    <content><![CDATA[<blockquote>
+<blockquote>
+<p>在这个特殊的日子里，总要记下点什么。</p>
+</blockquote>
+</blockquote>
+<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
+<span id="more"></span>
+
+<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
+<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
+<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
+<p>回望这两个月，犹如在上演着形象生动的大片。</p>
+<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
 ]]></content>
       <categories>
         <category>coffeetime</category>
