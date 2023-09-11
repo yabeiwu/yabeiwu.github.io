@@ -1,96 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>add code block highlighting test</title>
-    <url>/2020/03/27/codeblock-test/</url>
-    <content><![CDATA[<p>这个网上可以找到很多资料，我这里这里简单记录一下。<br>首先需要动的地方有：</p>
-<ul>
-<li>主题的_config.yml文件</li>
-<li>站点的_config.yml文件</li>
-<li>代码块的语言标注</li>
-</ul>
-<span id="more"></span>
-
-<h1 id="1-在site-config中，找到highlight"><a href="#1-在site-config中，找到highlight" class="headerlink" title="1. 在site config中，找到highlight"></a>1. 在site config中，找到highlight</h1><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span></span><br></pre></td></tr></table></figure>
-<p>文字自动检测默认不启动，所以改成true使其起作用。</p>
-<h1 id="2-在theme-config中修改"><a href="#2-在theme-config中修改" class="headerlink" title="2. 在theme config中修改"></a>2. 在theme config中修改</h1><p>主题有好几种，根据自己审美进行修改，这里给出几种主题的效果，可以看一下进行选择。<br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/20200328150401.png"></p>
-<h1 id="3-代码块语言标注"><a href="#3-代码块语言标注" class="headerlink" title="3. 代码块语言标注"></a>3. 代码块语言标注</h1><p>包裹代码块的方式很多，有用tab的，也可以用<code>包围的，好像tab不行，用</code>可以，但是我就是用&#96;&#96;&#96;的，发现还是不行，后来发现需要这样：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">code here</span><br></pre></td></tr></table></figure>
-<p>即在第一个<br>`&#96;&#96;后面注明语言类型才可以。</p>
-<blockquote>
-<blockquote>
-<p>Note: 注意在部署前删除.git和.deploygit文件，不然像code主题效果可能会失败。</p>
-</blockquote>
-</blockquote>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019-CoronaVirus在中国消散之际的返工</title>
-    <url>/2020/03/23/back-to-work/</url>
-    <content><![CDATA[<blockquote>
-<blockquote>
-<p>在这个特殊的日子里，总要记下点什么。</p>
-</blockquote>
-</blockquote>
-<h2 id="假期始，满怀兴奋"><a href="#假期始，满怀兴奋" class="headerlink" title="假期始，满怀兴奋"></a>假期始，满怀兴奋</h2><p>2019年的春节假期，显得格外不平凡。<br>假期前，关于武汉肺炎的消息在学校就有一些讨论，但是当时没有人会预料到事态会如此严重，甚至会全球爆发（这已经是后话）。学校里的假期，总会提前于除夕几日。这几年，由于一些个人原因，始终没有能回家过年。很早就买好了归家的火车票，总算可以回家过个年了。回家之后，还携妻女去信阳走访了两位朋友。另外还趁着年前看望了几位大伯和姑姑。(现在回想起来去信阳的行程还有些后怕。)<br>23日，消息传来，武汉封城。整个形势愈发朝着始料不及的情况发展着，铺天盖地的网络新闻，包括谣言，包括骂战，生动的上演着。而这个年注定和往常不一样。<br>大年初一，随着武汉的封城，各地也开始进行封锁，比如封村，封社区，封小区等。各家也基本取消了走亲访友的习俗，采用了网络拜年的形式。</p>
-<span id="more"></span>
-
-<h2 id="假期延，反复折腾"><a href="#假期延，反复折腾" class="headerlink" title="假期延，反复折腾"></a>假期延，反复折腾</h2><p>本计划于2月1日返回深圳，30号左右收到消息，预订的火车票车次被取消。一方面重新订票买不到近期的，另外一方面学校等并没有开学打算。后面重新买到了2月7日的票，但2月6日由于得到消息，我们仅一楼之隔的一个小区确诊了一个病例，又取消了行程。在家继续等待了将近两周，最终确定返程日期。2月10号已经开始正式办公，比如组内正常会议等。</p>
-<h2 id="假期长，心怀焦虑"><a href="#假期长，心怀焦虑" class="headerlink" title="假期长，心怀焦虑"></a>假期长，心怀焦虑</h2><p>2月19号，返回深圳，开始自我隔离。虽说学校已发布在家工作通知，毕竟家里条件有限。在这漫长的假期中，产生了些许焦虑，怀念办公室的一桌一椅。</p>
-<h2 id="回归，平和，感恩"><a href="#回归，平和，感恩" class="headerlink" title="回归，平和，感恩"></a>回归，平和，感恩</h2><p>3月10号，终于返回校园。别离了2个月的办公室，办公桌，显得格外亲切与珍贵。校园内走了一圈，几个建筑依然在赶工，理学院大楼已然有了一些感觉。山上的荔枝树也已开花，经历了去年的休养，相信今年会是个大丰收。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/PANO_20200311_144535.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_144208.jpg" alt="校园内拍摄"><br><img src="https://cdn.jsdelivr.net/gh/yabeiwu/Blog_BackUP/img/IMG_20200311_143850.jpg" alt="校园内拍摄"></p>
-<p>回望这两个月，犹如在上演着形象生动的大片。</p>
-<p>身边的人都安康，回归之后，愿一片祥和。更应懂感恩，感激依然健康，感激还能用这么一个办公室办公，感激可以做着自己喜欢做的事情。</p>
-]]></content>
-      <categories>
-        <category>coffeetime</category>
-      </categories>
-      <tags>
-        <tag>memory</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>DFTP Calculated Phonon in VASP.6.2.1</title>
-    <url>/2022/01/05/dfpt-phonon-in-vasp6.2.1/</url>
-    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="Question"><a href="#Question" class="headerlink" title="Question:"></a>Question:</h2><p>Based on DFPT method, the phonon results by using VASP.5.4.4 and VASP.6.2.1 are different, see as following:</p>
-<p><a href="https://imgtu.com/i/73dwOs"><img src="https://s4.ax1x.com/2022/01/14/73dwOs.md.png" alt="73dwOs.md.png"></a><br><a href="https://imgtu.com/i/73d2pF"><img src="https://s4.ax1x.com/2022/01/14/73d2pF.md.png" alt="73d2pF.md.png"></a></p>
-<span id="more"></span>
-
-<p>After carefully check, we find that the phonon dispersion are the same, but the phonon frequency are not. It seems that they have some unit difference.</p>
-<p>And the unit seems to be the frequency unit (f.u.) problem, in the DFPT of VASP.6.2.1, <strong>it already uses the THz unit</strong>.</p>
-<p><a href="https://imgtu.com/i/73dO6H"><img src="https://s4.ax1x.com/2022/01/14/73dO6H.md.png" alt="73dO6H.md.png"></a></p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">f</span>.u.=<span class="number">9</span>.<span class="number">822517</span>*<span class="number">10</span>^<span class="number">13</span> s-<span class="number">1</span>.</span><br><span class="line"></span><br><span class="line"><span class="attribute">f</span>.u./<span class="number">2</span>pi = <span class="number">15</span>.<span class="number">6330214</span> THz.   # converted to THz</span><br></pre></td></tr></table></figure>
-
-<p>When we use phonopy to process the force data, it use the convert the unit to THz as default. That is to say, it will multiply by 15.6330214 again in VASP.6.2.1, this is why the results in VASP.6.2.1 has significant larger frequencies.</p>
-<p>In order to get the right phonon frequency, you can basically use the phononpy command to avoid double counting the factor</p>
-<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">phonopy</span> --factor=<span class="number">1</span>.<span class="number">0</span> band.conf</span><br></pre></td></tr></table></figure>
-
-<p>This following figure are the new phonon results, and now they are consistent very well.</p>
-<p><a href="https://imgtu.com/i/73wCh8"><img src="https://s4.ax1x.com/2022/01/14/73wCh8.md.png" alt="73wCh8.md.png"></a></p>
-<p><strong>One should also note that only the DFPT method is affected in the VASP.6.2.1, if you are using finite difference method to calculate the phonon, no worries.</strong></p>
-<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question 2:"></a>Question 2:</h2><p>However if you have checked the FORCE_CONSTANTS carefully, you will find that the data in VASP.6.2.1 is in the new unit. So if you want to do the thing in a totally right&#x2F;proper way, you should change the FORCE_CONSTANTS files, especially when you are doing some research work on, for example, the LO-TO splitting, high-order phonon interactions by using ShengBTE.</p>
-<p>The solution is that you should write a code to divide the FORCE_CONSTANTS by 15.6330214**2，and then you will obtain a new FORCE_CONSTANTS file, and then you can use this new FORCE_CONSTANTS file to do anything you want。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/bin/bash</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># if one use vasp.6.2.1 DFPT calculation to obtain </span></span><br><span class="line"><span class="comment"># phonon-related properties, the calculation module in </span></span><br><span class="line"><span class="comment"># vasp.6.2.1 output the results in THz, [previously, it&#x27;s f.u.]</span></span><br><span class="line"><span class="comment"># But phonopy code process the data based on the older version,</span></span><br><span class="line"><span class="comment"># in order to do things in a right way, i wrote this script to</span></span><br><span class="line"><span class="comment"># convert the FORCE_CONSTANTS to the older unit</span></span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="comment"># After it is converted, this FORCE_CONSTANT can be used in </span></span><br><span class="line"><span class="comment"># phonopy, SHENGBTE, and etc.</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#   Last Modified: Jan. 05 2022 </span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#-----------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="comment"># converted unit, f.u./pi = 15.6330214 THz</span></span><br><span class="line">factor = <span class="number">15.6330214</span> ** <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS&quot;</span>,<span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    lines = f.readlines()</span><br><span class="line"></span><br><span class="line">nlines1 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">0</span>])</span><br><span class="line">nlines2 = <span class="built_in">int</span>(lines[<span class="number">0</span>].split()[<span class="number">1</span>])</span><br><span class="line"><span class="built_in">print</span>(nlines1,nlines2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;FORCE_CONSTANTS_2ND&quot;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(<span class="string">f&quot;<span class="subst">&#123;nlines1:6d&#125;</span><span class="subst">&#123;nlines2:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(nlines1):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(nlines2):</span><br><span class="line">            f.write(<span class="string">f&quot;<span class="subst">&#123;i+<span class="number">1</span>:6d&#125;</span><span class="subst">&#123;j+<span class="number">1</span>:6d&#125;</span>\n&quot;</span>)</span><br><span class="line">            <span class="keyword">for</span> m <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                <span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">                    f.write(<span class="string">f&quot;<span class="subst">&#123;<span class="built_in">float</span>(lines[i*nlines2*<span class="number">4</span>+j*<span class="number">4</span>+<span class="number">2</span>+m].split()[n])/factor:<span class="number">22.16</span>f&#125;</span>&quot;</span>)</span><br><span class="line">                f.write(<span class="string">f&quot;\n&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-
-]]></content>
-      <categories>
-        <category>Phonon</category>
-      </categories>
-      <tags>
-        <tag>Phonon</tag>
-        <tag>VASP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2017/05/20/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -113,180 +23,55 @@
       </categories>
   </entry>
   <entry>
-    <title>Microsoft Office doesn&#39;t support eps format file???</title>
-    <url>/2020/05/20/office-esp-file-support/</url>
-    <content><![CDATA[<h3 id="The-reason"><a href="#The-reason" class="headerlink" title="The reason"></a>The reason</h3><p>Due to some security problem, since 04&#x2F;2017, Microsoft doesn’t support eps file directly put into Word, PowerPoint file. But in our writing, we may need this kind of vector picture, how to fix this?</p>
-<span id="more"></span>
-<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>1, ‘ win + R ‘ open the dialog, and then input regedit to open the registry editor.<br><img src="/images/regedit.png" alt="Regedit"><br>2, for 64 operation, go to: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\Common\Security\AllowLists\GraphicsFilterImport, if you don’t have it, just create a new one. And then create a key named “AllowListEnabled”, using the format of REG_QWORD (for 64 operation, don’t use REG_DWORD), with the value of “1”. Next, add eps to your list, creating a new key named “EPSIMP32.FLT”, and set the value to the version of your office.<br><img src="/images/RegistryEditor.png" alt="RegistryEditor"></p>
-<p><strong>Note: How to find the version of your office? using this <a href="https://support.microsoft.com/en-us/help/2479871/security-settings-for-graphic-filters-for-microsoft-office-365">link</a></strong> or picture:<br><img src="/images/officeversion.png" alt="officeversion"></p>
-<p>And also you can find more useful information from the link above.</p>
-]]></content>
-      <tags>
-        <tag>Office</tag>
-        <tag>Word</tag>
-        <tag>PowerPoint</tag>
-      </tags>
+    <title></title>
+    <url>/2023/04/14/C3B/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>how to add sublime to right click menu?</title>
-    <url>/2017/08/20/sublime-add-right-click-menu/</url>
-    <content><![CDATA[<p>I found this solution from this <a href="https://my.oschina.net/adairs/blog/466777">link</a></p>
-<h3 id="Why-we-should-do-this"><a href="#Why-we-should-do-this" class="headerlink" title="Why we should do this?"></a>Why we should do this?</h3><p>For convenience, i’d like to use sublime sometimes as my texteditor, not as a default one. So it’s better to add sublime to the right click menu. And how to do this?</p>
-<span id="more"></span>
-<h3 id="Method-1-Installation-recomended"><a href="#Method-1-Installation-recomended" class="headerlink" title="Method 1: Installation (recomended)"></a>Method 1: Installation (recomended)</h3><p>copy the following scipts to the file named “sublime_addright.inf”, and put the file in your directory of sublime. And then right click the file to install it.<br>PS: you should make sure that the file is not hiden in your system due to the format of this file.</p>
-<pre><code>[Version]
-Signature=&quot;$Windows NT$&quot;
-
-[DefaultInstall]
-AddReg=SublimeText3
-
-[SublimeText3]
-hkcr,&quot;*\\shell\\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
-hkcr,&quot;*\\shell\\SublimeText3\\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot; %%*&quot;
-hkcr,&quot;Directory\shell\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot;
-hkcr,&quot;*\\shell\\SublimeText3&quot;,&quot;Icon&quot;,0x20000,&quot;%1%\sublime_text.exe, 0&quot;
-hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot;&quot;
-</code></pre>
-<h3 id="Method-2-Modify-the-regitry"><a href="#Method-2-Modify-the-regitry" class="headerlink" title="Method 2: Modify the regitry"></a>Method 2: Modify the regitry</h3><p>Copy the following codes to file named “sublime_addright.reg”, and then double click on this file.<br>PS: you should change the directory of sublime to your own system.</p>
-<pre><code>Windows Registry Editor Version 5.00
-[HKEY_CLASSES_ROOT\*\shell\SublimeText3]
-@=&quot;Edit with Sublime&quot;
-&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
-
-[HKEY_CLASSES_ROOT\*\shell\SublimeText3\command]
-@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
-
-
-[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
-@=&quot;Edit with Sublime&quot;
-&quot;Icon&quot;=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe,0&quot;
-
-[HKEY_CLASSES_ROOT\Directory\shell\SublimeText3\command]
-@=&quot;D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1&quot;
-</code></pre>
-<h3 id="How-to-delete-the-right-click-menu-if-you-don’t-want-it"><a href="#How-to-delete-the-right-click-menu-if-you-don’t-want-it" class="headerlink" title="How to delete the right click menu if you don’t want it?"></a>How to delete the right click menu if you don’t want it?</h3><p>Copy the following codes to the file named “sublime_delright.reg”, and put it in your sublime directory, and then double click on it.</p>
-<pre><code>Windows Registry Editor Version 5.00
-[-HKEY_CLASSES_ROOT\*\shell\SublimeText3]
-[-HKEY_CLASSES_ROOT\Directory\shell\SublimeText3]
-</code></pre>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>sublime</tag>
-      </tags>
+    <title></title>
+    <url>/2023/04/14/C3N/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>How to install phonopy with/without root access?</title>
-    <url>/2019/06/20/phonopy-installation/</url>
-    <content><![CDATA[<p>This will has two situations: 1, root account; 2, without root access. So we will discuss all the situations following:</p>
+    <title>Prediction of protected band edge states and dielectric tunable quasiparticle and excitonic properties of monolayer MoSi2N4 (单层MoSi2N4:被保护的带边电子态及其介电可调的准粒子和激子性质的理论研究)</title>
+    <url>/2022/07/02/MoSi2N4/</url>
+    <content><![CDATA[<blockquote>
+<blockquote>
+<p>The electronic structure of two-dimensional (2D) materials are inherently prone to environmental perturbations, which may pose significant challenges to their applications in electronic or optoelectronic devices. A 2D material couples with its environment through two mechanisms: local chemical coupling and nonlocal dielectric screening effects. The local chemical coupling is often difficult to predict or control experimentally. Nonlocal dielectric screening, on the other hand, can be tuned by choosing the substrates or layer thickness in a controllable manner. Therefore, a compelling 2D electronic material should offer band edge states that are robust against local chemical coupling effects. Here it is demonstrated that the recently synthesized MoSi2N4 is an ideal 2D semiconductor with robust band edge states protected from capricious environmental chemical coupling effects. Detailed many-body perturbation theory calculations are carried out to illustrate how the band edge states of MoSi2N4 are shielded from the direct chemical coupling effects, but its quasiparticle and excitonic properties can be modulated through the nonlocal dielectric screening effects. This unique property, together with the moderate band gap and the thermodynamic and mechanical stability of this material, paves the way for a range of applications of MoSi2N4 in areas including energy, 2D electronics, and optoelectronics.<br>二维（2D）材料的电子结构容易受到环境的干扰，这可能对其在电子或光电设备中的应用构成重大挑战。一般来说，二维材料通过局域化学耦合和非局域介电屏蔽效应这两种机制与环境耦合。局域化学耦合通常很难预测或在实验中精准控制。而非局域介电屏蔽则可以通过选择衬底或材料厚度的方式来进行调整。因此，一个理想的二维电子材料应该提供对局域化学耦合效应不敏感的带边电子态。这里证明了最近实验上合成的MoSi2N4就是这样一种理想的二维半导体：其鲁棒的带边电子态不受反复无常的化学环境耦合效应影响。通过详细的多体微扰理论计算，说明MoSi2N4的带边电子态是如何被屏蔽在直接的化学耦合效应之外，但是它的准粒子和激子特性可以通过非局域的介电屏蔽效应进行调控。这种独特的性质，加上这种材料适度的带隙和热力学稳定性，为MoSi2N4在能源、二维电子学和光电子学等领域的一系列应用铺平了道路。</p>
+</blockquote>
+</blockquote>
 <hr>
-<span id="more"></span>
-<h3 id="1-root-account"><a href="#1-root-account" class="headerlink" title="1, root account:"></a>1, root account:</h3><p>if you are a root account, everything becomes much easier for you. All you just need to do is the following:<br>install python development packages:</p>
-<pre><code>numpy, numpy-dev, matplotlib, python-lxml, python-yaml
-</code></pre>
-<p>if you are using a Ubuntu&#x2F;Debian system, you just need to：</p>
-<pre><code>sudo aptitude install python-dev python-numpy 
-\python-matplotlib python-tk python-lxml python-yaml 
-</code></pre>
-<p>And after that, go to the phonopy directory, and using command:</p>
-<pre><code>sudo python setup.py install
-</code></pre>
-<p>Then edit your ~&#x2F;.bashrc file, such as:</p>
-<pre><code>export PATH=~/opt/phonopy-0.6.1:$PATH
-</code></pre>
-<hr>
-<h3 id="2-without-root-access"><a href="#2-without-root-access" class="headerlink" title="2, without root access:"></a>2, without root access:</h3><p>Things become much more complicated, but don’t worry, we can handle this.<br>1, you should install your local python program.<br>install local python without root access (see the following, copy from <a href="http://www.csuldw.com/2016/05/06/2016-05-06-python-and-pip/">this link</a>)<br>choose your own python version and your installed directory.</p>
-<pre><code>wget https://www.python.org/ftp/python/2.7.5/Python-2.7.5.tgz
-tar -xzf Python-2.7.5.tgz
-cd Python-2.7.5
-mkdir -p /home/yabeiwu/software/python27 
-./configure --prefix=&quot;/home/yabeiwu/software/python27&quot;
-make
-make install
-</code></pre>
-<p>2, install setuptools<br>setuptools is prepared for pip program, just using following command:</p>
-<pre><code>wget --no-check-certificate http://pypi.python.org/packages/source/s/setuptools/setuptools-2.0.tar.gz
-tar -xzvf setuptools-2.0.tar.gz
-cd setuptools-2.0
-/home/yabeiwu/software/python27/bin/python setup.py install
-</code></pre>
-<p>3, install pip<br>keep remembering that you should use your own python program.</p>
-<pre><code>wget --no-check-certificate https://pypi.python.org/packages/41/27/9a8d24e1b55bd8c85e4d022da2922cb206f183e2d18fee4e320c9547e751/pip-8.1.1.tar.gz#md5=6b86f11841e89c8241d689956ba99ed7
-tar -xzf pip-8.1.1.tar.gz
-cd pip-8.1.1
-/home/yabeiwu/software/python27/bin/python setup.py install
-</code></pre>
-<p>rename your own pip in ~&#x2F;.bashrc file,</p>
-<pre><code>alais mypip=&#39;/home/yabeiwu/software/python27/bin/pip&#39;
-</code></pre>
-<p>4, install related library<br>first goes to &#x2F;your&#x2F;path&#x2F;to&#x2F;python&#x2F;bin directory</p>
-<pre><code>cd /home/yabeiwu/software/python27/bin/
-mypip install simplejson
-mypip install redis
-mypip install numpy
-mypip install scipy
-mypip install sklearn
-mypip install matplotlib
-</code></pre>
-<p>Because your system already has a python program, so you can rename your python to a different one, by changing the ~&#x2F;.bashrc file</p>
-<pre><code>alias mypython=&#39;/home/yabeiwu/software/python27/bin/python&#39;
-</code></pre>
-<p>5, install phonopy<br>Before install phonopy, we should make sure you have installed the needed python-libraries, we can use the pip tool to complete the  installations:</p>
-<pre><code>mypip install numpy
-mypip install matplotlib
-mypip install PyYaml
-mypip install h5py
-mypip install scipy
-</code></pre>
-<p>if you cann’t find the related libraries, you can use the search tool,such as:</p>
-<pre><code>mypip search yaml
-</code></pre>
-<p>using your local python to install the phonopy, and don’t specify anything.</p>
-<pre><code>mypython setup.py install
-</code></pre>
-<p>And then set the phonopy path in your environment:</p>
-<pre><code>export PATH=$PAHT:/home/yabeiwu/software/python27/bin/
-</code></pre>
-<p>After all the installation, have fun in using phonopy.</p>
+<h2 id="MoSi2N4：带边电子态是如何被保护起来的？"><a href="#MoSi2N4：带边电子态是如何被保护起来的？" class="headerlink" title="MoSi2N4：带边电子态是如何被保护起来的？"></a>MoSi2N4：带边电子态是如何被保护起来的？</h2><p>二维层状材料通过两种机制与环境耦合：局域化学耦合和非局域介电屏蔽效应。局域化学耦合通常很难预测或在实验中精准控制；非局域介电屏蔽可以通过选择衬底或厚度的可控方式进行调制。因此一个令人信服的二维电子材料应该提供对局域化学耦合效应不敏感的带边电子态。该研究证明了最近合成的MoSi2N4可能提供了这样一种理想的二维半导体：其带状电子态被保护起来，不再受反复无常的化学耦合影响。我们联合美国纽约州立大学布法罗分校物理系的张培鸿教授团队，采用密度泛函理论和多体微扰理论模拟计算，研究了MoSi2N4的电子和光学性质，证实了单层MoSi2N4鲁棒的带边电子态，在很大程度上保护了不希望发生的环境化学作用，而其准粒子和激子特性仍然可以通过非局域电介质屏蔽效应进行调节。除了获取材料密度泛函和准粒子带隙与层数之间的依赖性定量信息外，还发现随着层数的增加，光学带隙实际上略有增加。值得注意的是，在该研究工作中还采用了自主发展的加速GW计算方法来获得完全收敛的准粒子结果。该研究揭示了MoSi2N4的带边电子态是如何被屏蔽在直接的化学耦合效应之外，但是它的准粒子和激子特性可以通过非局域的介电屏蔽效应进行调控。这种独特的性质，加上这种材料适度的带隙和热力学稳定性，为MoSi2N4在能源、二维电子学和光电子学等领域的一系列应用铺平了道路。我们的这篇文章近期发布于<a href="https://www.nature.com/articles/s41524-022-00815-6">npj Computational Materials 8: 129 (2022)</a>。</p>
+<h2 id="Monolayer-MoSi2N4-protected-band-edge-states-dielectric-tunable-quasiparticle-and-excitonic-properties"><a href="#Monolayer-MoSi2N4-protected-band-edge-states-dielectric-tunable-quasiparticle-and-excitonic-properties" class="headerlink" title="Monolayer MoSi2N4: protected band-edge states, dielectric tunable quasiparticle and excitonic properties"></a>Monolayer MoSi2N4: protected band-edge states, dielectric tunable quasiparticle and excitonic properties</h2><p>Two-dimensional (2D) layered materials couple with their environment through two mechanisms: local chemical coupling and non-local dielectric screening effects. Local chemical coupling is often difficult to predict or precisely control experimentally; non-local dielectric screening can be modulated in a controlled manner by choosing the substrate or thickness. Therefore, a compelling 2D electronic material should offer band edge states that are robust against local chemical coupling effects. This study demonstrates that the recently synthesized MoSi2N4 may provide such an ideal 2D semiconductor with robust band-edge states protected from capricious environmental chemical coupling effects. We investigated the electronic and optical properties of MoSi2N4 using density functional theory and many-body perturbation theory simulations, and demonstrated that the robust band-edge electronic states of monolayer MoSi2N4 are largely protected from undesired environmental chemical couplings, while its quasiparticle and excitonic properties can still be tuned by nonlocal dielectric screening effects. In addition to obtaining quantitative information on the dependence of DFT and quasiparticle band gap on the number of layers, it was found that the optical band gap actually increases slightly with increasing number of layers. Notably, in this research, accelerated GW calculation methods developed by the team were also used to obtain fully converged quasiparticle results. This study reveals how the band-edge states of MoSi2N4 is screened from direct chemical coupling effects, but its quasiparticle and excitonic properties can be modulated by nonlocal dielectric screening effects. This unique property, together with the modest band gap and thermodynamic and mechanical stability, may pave the way for applications of MoSi2N4 in areas energy, 2D electronics, and optoelectronics. This article was recently published in <a href="https://www.nature.com/articles/s41524-022-00815-6">npj Computational Materials 8,: 129 (2022)</a>.</p>
+<h2 id="npj-Computational-Materials-二维MoSi2N4——被保护起来的带边电子态"><a href="#npj-Computational-Materials-二维MoSi2N4——被保护起来的带边电子态" class="headerlink" title="npj Computational Materials: 二维MoSi2N4——被保护起来的带边电子态"></a>npj Computational Materials: 二维MoSi2N4——被保护起来的带边电子态</h2><p>二维材料的低能电子结构，特别是带边电子态，容易受到环境的干扰，这可能成为它们在电子或光电设备中实际应用的一个主要问题。二维材料通过两种基本机制与环境发生耦合：局域化学作用和非局域介质屏蔽。非局域介电屏蔽效应可以通过选择基底和&#x2F;或层厚来设计，这实际上可以作为一种有利的调控手段，来定制二维半导体的准粒子和光学特性。另一方面，局域化学耦合可能来自“无意”的表面吸附和&#x2F;或界面化学耦合，在实验中特别难以预测和控制，但可以显著影响二维材料的带边电子态。值得注意的是，即使是在典型的范德瓦尔斯（vdW）距离上非常弱的化学耦合（也即没有形成传统的化学键），也可以显著影响带边电子态。这些相互作用可能会强烈改变二维半导体的电子结构，从而改变其器件性能。因此，一个令人信服的二维电子材料应该提供对弱的表面或界面化学相互作用具有鲁棒性的带边电子态。<br>我们采用密度泛函理论和多体微扰理论模拟计算，研究了MoSi2N4的电子和光学性质，证明了单层MoSi2N4鲁棒的带边电子态，在很大程度上保护了不希望发生的环境化学作用，而其准粒子和激子特性仍然可以通过非局域电介质屏蔽效应进行调节。除了获取材料带隙与层数之间的依赖性定量信息外，还发现随着层数的增加，光带隙实际上略有增加。值得注意的是，在该研究工作中还采用了自主发展的加速GW计算方法来获得完全收敛的准粒子结果。该研究揭示了MoSi2N4的带边电子态是如何被屏蔽在直接的化学耦合效应之外，但是它的准粒子和激子特性可以通过非局域的介电屏蔽效应进行调控。这种独特的性质，加上这种材料适度的带隙和热力学稳定性，为MoSi2N4在能源、二维电子学和光电子学等领域的一系列应用铺平了道路。</p>
+<p>更多内容可见于<a href="https://mp.weixin.qq.com/s/0EX_H1Yo-Bu_0Exl0rx_JA">npj计算材料学公众号</a>和原文<a href="https://www.nature.com/articles/s41524-022-00815-6">npj Computational Materials 8,: 129 (2022)</a>。</p>
 ]]></content>
       <categories>
-        <category>Phonon</category>
+        <category>research</category>
       </categories>
       <tags>
-        <tag>Phonon</tag>
-        <tag>VASP</tag>
-        <tag>Linux</tag>
+        <tag>2D</tag>
+        <tag>GW</tag>
       </tags>
   </entry>
   <entry>
-    <title>testing code</title>
-    <url>/2020/03/27/test/</url>
-    <content><![CDATA[<h1 id="first-line"><a href="#first-line" class="headerlink" title="first line"></a>first line</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>IT</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
+    <title></title>
+    <url>/2023/04/14/hetero_C3N-C3B/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>2010年世博会的一些回忆</title>
-    <url>/2020/04/07/yishibo/</url>
-    <content><![CDATA[<h1 id="2010上海世博会"><a href="#2010上海世博会" class="headerlink" title="2010上海世博会"></a>2010上海世博会</h1><p>十年前，世博会在上海召开。正值读大学期间，有幸成为一名志愿者，在园区内外服务了14天。可惜的是一些照片随着设备的更新迭代已经丢失了。疫情期间，在家闲来无聊，翻开了抽屉里的一些物品存物，找到了一些纪念品。<br>由于事隔遥远，已经十年前，记忆似乎已经完全丢失，只能把这些纪念品拍下来保存。有些做志愿者的照片也在网盘里面被我翻出来，但是由于像素不高就不放上来了，仅作为自己的记忆吧。</p>
-<h1 id="纪念图册"><a href="#纪念图册" class="headerlink" title="纪念图册"></a>纪念图册</h1><p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_135938-COLLAGE.jpg" alt="志愿者徽章"></p>
-<span id="more"></span>
+    <title></title>
+    <url>/2017/10/15/snse-strain/</url>
+    <content><![CDATA[<img align="middle" src="snse_strain.png" alt="snse-strain" >
+<center> Band Edges of SnSe under Strains </center>
 
-<p><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140043-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140347-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140242-COLLAGE.jpg" alt="世博展馆印章"><br><img src="https://gitee.com/yabeiwu/blogimage/raw/master/img/IMG_20200131_140506-COLLAGE.jpg" alt="世博展馆印章"></p>
-<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>还翻到了几张自己十年前在世博会拍的照片，当年可真瘦呀~~</p>
+<p>SnSe是一种很好的层状热电材料。在二维热电材料SnSe中理论设计实现了通过施加应力对材料电子结构进行调控，进而影响材料热电性质的目的。团队通过DFT和GW计算研究了SnSe高温相和低温相的电子结构。由于电子结构带边由不同的原子轨道所控制，所以他们对不同方向的应变反应不同。通过操控应变的大小和方向，我们可以实现半导体-金属以及间接-直接带隙的转变。进一步通过多谷电子结构数据分析，揭示了热电ZT优值也可以通过施加应变来进行优化。该成果为实验上操控SnSe电子结构提供了理论参考，同时也为优化SnSe热电ZT优值提供了指导方向。表明课题组在材料基因组工程集成计算研究领域又获重要进展。</p>
+<p>电子结构带边控制，甚至到材料电子，输运和光学性质，在大范围应用中对材料设计和优化是相当重要的。层状结构SnSe，具有丰富的化学键，给我们提供了一个独特的系统来应变控制和活性调控带边电子结构。结果显示，带隙的大小和性质（比如直接-间接）都可以通过一个温和的应变来调控。带隙可以在0-1.2eV这个宽范围内进行有效调节。更加有趣的是，我们提出应变能够作为一种有效地方法来实现多谷电子结构，提供了另外一种优化SnSe电子和输运应用的机制。</p>
+<p>我们的这一研究成果发表在凝聚态物理学期刊《物理评论应用》 Physical Review Applied上, Yabei Wu, Weiyi Xia, Weiwei Gao, Wei Ren*, and Peihong Zhang*, Physical Review Applied, 8, 034007 (2017), 并被选为编辑推荐。</p>
+<p>成果链接<a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.8.034007">https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.8.034007</a></p>
 ]]></content>
       <categories>
-        <category>coffeetime</category>
+        <category>research</category>
       </categories>
-      <tags>
-        <tag>memory</tag>
-      </tags>
   </entry>
 </search>
