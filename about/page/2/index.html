@@ -153,13 +153,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -207,7 +207,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://yabeiwu.github.io/2024/07/17/hetero_C3N-C3B/">
+    <link itemprop="mainEntityOfPage" href="https://yabeiwu.github.io/2025/01/07/SISSO-eps/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -225,7 +225,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/07/17/hetero_C3N-C3B/" class="post-title-link" itemprop="url">Untitled</a>
+          <a href="/2025/01/07/SISSO-eps/" class="post-title-link" itemprop="url">Interpretable model of dielectric constant for rational design of microwave dielectric materials -- A machine learning study</a>
         </h2>
 
         <div class="post-meta-container">
@@ -236,7 +236,23 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2024-07-17 15:41:18" itemprop="dateCreated datePublished" datetime="2024-07-17T15:41:18+08:00">2024-07-17</time>
+      <time title="Created: 2025-01-07 00:00:00" itemprop="dateCreated datePublished" datetime="2025-01-07T00:00:00+08:00">2025-01-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2025-04-17 00:35:58" itemprop="dateModified" datetime="2025-04-17T00:35:58+08:00">2025-04-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/research/" itemprop="url" rel="index"><span itemprop="name">research</span></a>
+        </span>
     </span>
 
   
@@ -249,7 +265,38 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          
+          <p><strong>【作者】</strong>Ye Sheng#, Yabei Wu#,<em>, Chang Jiang#, Xiaowen Cui, Yuanqing Mao, Caichao Ye</em>, Wenqing Zhang*</p>
+<p><a target="_blank" rel="noopener" href="https://www.oaepublish.com/pre_onlines/jmi.2024.75">原文在这里</a></p>
+<p><strong>【正文内容】</strong></p>
+<h1 id="1-导读："><a href="#1-导读：" class="headerlink" title="1.         导读："></a>1.         <strong>导读</strong>：</h1><p>在现代通信技术中，微波介质材料扮演着至关重要的角色。这些材料的介电性质是决定其在高科技应用中性能的关键因素。然而，传统的材料设计方法往往依赖于耗时且成本高昂的试错实验。本研究采用Sure Independence Screening and Sparsifying Operator（SISSO）方法，旨在构建一个可解释的模型，以理性设计具有特定介电常数的微波介质材料。我们的模型能够揭示材料组成、结构与其介电性能之间的复杂关系，为微波介质材料科学领域提供新的洞见，并指导未来微波介质材料的高效设计。</p>
+<!---more--->
+
+<h1 id="2-正文："><a href="#2-正文：" class="headerlink" title="2.         正文："></a>2.         <strong>正文</strong>：</h1><p>在本研究中，收集了1419种单相材料的介电性质实验数据，为分析提供了基础。基于材料的原子性质、离子性质以及晶体结构特征构建了一个全面的特征空间，并利用随机森林（RF）算法对这些特征进行了重要性排序，以识别对介电性质影响最大的因素。在四元材料系统中，用符号‘A’、‘B’、‘C’和‘D’来代表四个不同的组分，并从中筛选出六个对介电常数最具影响力的特征，包括元素比例（x）、配位数（cn）、离子半径（ir）、原子化学势（cp）、原子质量衰减系数CrKα（mac）和原子极化率（ap），这些特征被用来构建SISSO训练特征空间，每种材料共有24个特征。通过迭代训练SISSO模型，并在每一轮训练中生成新的描述符，模型在经过四次迭代后，预测准确度显著提高，达到了0.8的R²值（见图1）。</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE95aqK"><img src="https://s21.ax1x.com/2025/01/07/pE95aqK.jpg" alt="pE95aqK.jpg"></a></p>
+<p>图1. 四元材料的ε_{r}机器学习结果。(A) 在四元材料数据集中，RF对ε_{r}重要性的特征排名。(B) 随着SISSO迭代次数的增加，R²和RMSE（黑色括号）的变化。(C) 四次迭代后预测的介电常数与实验结果的散点图。</p>
+<p>在处理主要由无机氧化物组成的数据集时，注意到大部分四元材料可以通过在特定阳离子位点掺杂三元材料来获得。因此，通过拆分化学式中的阳离子位点，将三元材料视为四元材料，从而扩展了训练数据集。这种方法允许将三元和四元材料的数据集合并，以构建一个更统一的预测模型。比较了不同的拆分策略和拆分比例对模型准确性的影响，结果表明这些因素对模型结果的影响不大，这为合并三元和四元数据集提供了坚实的基础（见图2A）。进一步发现，三元和四元材料的介电常数分布特征存在差异，这可能是合并数据集模型准确性下降的主要原因。具体来说，通过使用不同模型（策略AB训练的模型、原始四元和三元数据集训练的模型）对相应的三元&#x2F;四元数据库进行了预测准确性分析（见图2B和C）。对于单一四元数据集，策略AB训练的模型通常比仅在四元数据集上训练的模型预测准确度低，但迭代次数的整体趋势符合预期（如图3A中的紫色星号所示）。相反，使用策略AB训练的模型对原三元数据集的预测准确度始终较差，并且没有显示出与迭代次数一致的趋势。</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE95Ur6"><img src="https://s21.ax1x.com/2025/01/07/pE95Ur6.jpg" alt="pE95Ur6.jpg"></a><br>图2. 合并三元和四元数据集的R²值。(A) 通过合并数据集与三种不同策略以及单独的三元（四元）数据集训练模型获得的R²的比较。(B) 使用策略-AB获得的模型与原始四元数据集预测的R²的比较。(C) 使用策略-AB获得的模型与原始三元数据集预测的R²的比较。</p>
+<p>在本研究中，采用了迭代训练方法来更新特征空间。尽管随着迭代次数的增加，模型变得复杂并难以分析，但经过两次迭代后，模型的预测准确度比非迭代模型有所提高。因此，为了更深入地探究物理原理，选择分析在两次训练迭代后分析模型。策略AB下得到的合并三元-四元氧化物体系的广义拟合模型如下所示：</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE9IVoD"><img src="https://s21.ax1x.com/2025/01/07/pE9IVoD.png" alt="pE9IVoD.png"></a><br>为了更好地理解上述公式，通过估算公式中每一项对介电常数的归一化贡献，并在图3中清晰展示了每项的不同贡献比例。在介电常数较高的材料中，前两项对介电常数有主要影响，因此在设计高介电常数系统时，必须考虑这些项所代表的特征和变化。相反，在介电常数较低的材料中（例如，低于25），第三项成为影响介电常数的主要因素，因此在设计低介电常数系统时，必须考虑所有三项所包含的特征。</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE95wVO"><img src="https://s21.ax1x.com/2025/01/07/pE95wVO.jpg" alt="pE95wVO.jpg"></a><br>图3. 使用策略-AB数据集经过两次迭代后训练的模型中每项对介电常数预测的归一化贡献。黑色实线表示介电常数从大到小的变化。彩色点对应于公式中第一至第四项（红-蓝-绿-品红）对介电常数的贡献，而相应的实线表示这些各自贡献的拟合情况。</p>
+<h1 id="3-展望"><a href="#3-展望" class="headerlink" title="3.         展望"></a>3.         <strong>展望</strong></h1><p>本研究为了解决合并不同组分数量的数据集的挑战，提出了一种简单的化学式拆分方法，允许对多组分化合物的介电常数进行联合（更大）数据集训练。预测模型的分析还揭示了调节材料介电常数的一般指导。这种结合不同元素数量的数据集的方法可以应用于未来多组分材料的机器学习研究中的其他物性。此外，从评估预测模型中获得的见解为开发未来的微波介质材料提供了宝贵的指导。未来工作将集中在进一步优化模型，考虑更多的外部因素，并扩展模型以预测其他重要的材料特性。</p>
+<hr>
+<h1 id="【第一作者介绍】"><a href="#【第一作者介绍】" class="headerlink" title="【第一作者介绍】"></a><strong>【第一作者介绍】</strong></h1><p> <strong>盛晔</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE952sP"><img src="https://s21.ax1x.com/2025/01/07/pE952sP.jpg" alt="pE952sP.jpg"></a><br>南方科技大学材料科学与工程系博士后。博士毕业于上海大学材料基因研究院材料物理化学系。从事机器学习在热电材料的应用和机器学习势函数开发。迄今在NPJ Computational Materials、Chemistry of Materials、Advanced Materials、Journal of Materiomics等国际期刊上共发表论文13余篇。</p>
+<p><strong>江畅</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE95gMt"><img src="https://s21.ax1x.com/2025/01/07/pE95gMt.jpg" alt="pE95gMt.jpg"></a><br>南方科技大学材料科学与工程专业硕士毕业生，主要从事机器学习辅助电介质材料设计和机制研究。</p>
+<hr>
+<h1 id="【通讯作者介绍】："><a href="#【通讯作者介绍】：" class="headerlink" title="【通讯作者介绍】："></a><strong>【通讯作者介绍】</strong>：</h1><p><strong>吴亚北</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE95fZ8"><img src="https://s21.ax1x.com/2025/01/07/pE95fZ8.png" alt="pE95fZ8.png"></a><br>南方科技大学材料科学与工程系，副研究员、硕士生导师、深圳市孔雀计划海外高层次人才（C类）。博士毕业于上海大学物理系，美国纽约州立大学布法罗分校访问学者，南方科技大学物理系博士后，2022年至南方科技大学材料系任研究助理教授。长期从事低维材料的层间耦合和快速GW计算研究、功能电介质材料的设计及物性调控。迄今在NPJ Computational Materials、Physical Review Applied、Advanced Materials、Physical Review B等国际期刊上共发表论文20余篇，主持国家自然科学基金青年基金课题1项。</p>
+<p><strong>叶财超</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE956xI"><img src="https://s21.ax1x.com/2025/01/07/pE956xI.jpg" alt="pE956xI.jpg"></a><br>南方科技大学前沿与交叉科学研究院&amp;材料科学与工程系，研究副教授，副研究员，主要从事计算材料学&#x2F;化学、AI for Materials相关研究。在Natl Sci Rev、Nat Commun、Adv Mater等学术期刊发表论文70余篇。担任MGE Advances、Materials Futures等期刊青年编委，并获得“深圳市孔雀计划海外高层次人才”、“深圳市高层次专业人才”及“江苏省优秀博士论文”等。主持国家自然科学基金面上项目、国家重点研发计划子课题、广东省重点研发计划子课题、广东省基础与应用基础研究基金、深圳市基础研究面上项目等。</p>
+<p><strong>张文清</strong></p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/pE95Rqf"><img src="https://s21.ax1x.com/2025/01/07/pE95Rqf.png" alt="pE95Rqf.png"></a><br>南方科技大学材料科学与工程系，教授，博士研究生导师。国家杰出青年科学基金、国家自然科学二等奖获得者，美国物理学会(APS) Fellow，国家重点研发计划首席科学家等。研究内容涉及高性能热电材料设计与实现、电-热输运及电子-声子输运物理、高性能热电材料设计、低维异质结构物性研究、深度学习等；研究方法包括第一原理计算、分子动力学、高通量计算等。发表Nature Mater.、PNAS、Phys. Rev. Lett.、JACS等SCI论文300余篇，国际会议邀请报告100余次。</p>
+<p>课题组网站：</p>
+<p><a target="_blank" rel="noopener" href="https://faculty.sustech.edu.cn/zhangwq">https://faculty.sustech.edu.cn/zhangwq</a></p>
+<p>课题组招聘</p>
+<p>本实验室招聘AI for Materials、计算材料学、计算物理、计算化学领域相关的博士后、博士生、硕士生，欢迎有相关计算背景的同学报名咨询。</p>
+
       
     </div>
 
@@ -268,7 +315,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/about/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/about/">1</a><span class="page-number current">2</span><a class="page-number" href="/about/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/about/page/8/">8</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/about/page/3/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/about/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/about/">1</a><span class="page-number current">2</span><a class="page-number" href="/about/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/about/page/9/">9</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/about/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
